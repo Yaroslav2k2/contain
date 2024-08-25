@@ -1,0 +1,11 @@
+# Используем базовый образ MySQL
+FROM mysql:latest
+
+# Устанавливаем переменные окружения для базы данных
+ENV MYSQL_ROOT_PASSWORD=labrootpassword
+ENV MYSQL_DATABASE=labdatabase
+ENV MYSQL_USER=labuser
+ENV MYSQL_PASSWORD=labpassword
+
+# Открываем порт 3306
+EXPOSE 3306
