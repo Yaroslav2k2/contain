@@ -1,0 +1,11 @@
+# Используем базовый образ MySQL
+FROM mysql:latest
+
+# Устанавливаем переменные окружения для базы данных
+ENV MYSQL_ROOT_PASSWORD=devrootpassword
+ENV MYSQL_DATABASE=devdatabase
+ENV MYSQL_USER=devuser
+ENV MYSQL_PASSWORD=devpassword
+
+# Открываем порт 3306
+EXPOSE 3306
