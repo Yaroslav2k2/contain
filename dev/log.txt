@@ -1,0 +1,8 @@
+Creating network "dev_default" with the default driver
+Creating dev_db_1 ... done
+Creating dev_web_1 ... done
+Attaching to dev_db_1, dev_web_1
+db_1   | 2024-08-22T00:00:00.000Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.28) starting as process 1
+web_1  | 2024/08/22 00:00:00 [notice] 1#1: using the "epoll" event method
+web_1  | 2024/08/22 00:00:00 [notice] 1#1: nginx/1.21.3
+web_1  | 2024/08/22 00:00:00 [notice] 1#1: built by gcc 10.2.1 20210130 (Debian 10.2.1-6)
