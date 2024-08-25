@@ -1,0 +1,6 @@
+cd lab
+docker-compose -f docker-compose.lab.yml up --build
+docker-compose -f docker-compose.lab.yml logs > logs/lab_logs.txt
+cd ../dev
+docker-compose -f docker-compose.dev.yml up --build
+docker-compose -f docker-compose.dev.yml logs > logs/dev_logs.txt
